@@ -1,6 +1,6 @@
 # CPU_Scheduler
 
-# 🧠 Scheduler Simulator — A Time-Driven OS Lab in Code
+#  Scheduler Simulator — A Time-Driven OS Lab in Code
 
 A simple but insightful **CPU Scheduler Simulator** built in C that mimics how an Operating System manages CPU time among multiple processes. It supports multiple scheduling algorithms like **FCFS (First-Come-First-Serve)** and **SJF (Shortest Job First)** in a **tick-by-tick simulation model**.
 
@@ -8,19 +8,19 @@ A simple but insightful **CPU Scheduler Simulator** built in C that mimics how a
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Tick-by-tick simulation (1 tick = 1 CPU time unit)
-- ✅ Multiple Scheduling Algorithms: FCFS, SJF (non-preemptive)
-- ✅ Modular code structure (clean separation of scheduling logic)
-- ✅ Command-line algorithm selection
-- ✅ Handles CPU idle time and I/O-aware jobs (future-ready)
-- ✅ Metrics tracking: Turnaround Time, Waiting Time, Response Time (WIP)
-- ✅ Designed for easy extension to RR, SRTF, MLFQ, etc.
+-  Tick-by-tick simulation (1 tick = 1 CPU time unit)
+-  Multiple Scheduling Algorithms: FCFS, SJF (non-preemptive)
+-  Modular code structure (clean separation of scheduling logic)
+-  Command-line algorithm selection
+-  Handles CPU idle time and I/O-aware jobs (future-ready)
+-  Metrics tracking: Turnaround Time, Waiting Time, Response Time (WIP)
+-  Designed for easy extension to RR, SRTF, MLFQ, etc.
 
 ---
 
-## 🧩 Simulation Model
+##  Simulation Model
 
 At each tick:
 - Tracks which process is **running**
@@ -32,7 +32,7 @@ It’s like a time-driven OS lab session – but in C code.
 
 ---
 
-## 📄 Input Format
+##  Input Format
 
 Each process has:
 - `pid`: Process ID (string)
